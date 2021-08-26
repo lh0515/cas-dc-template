@@ -10,4 +10,16 @@ In this paper, we propose a region-based convolutional network for a more accura
 Our method is improved on the basis of Mask-RCNN, including GA-RPN,FBS and SoftNMS modules. The corresponding configuration can be found in(Ours\GARPN_FBS_SoftNMS-r50_fpn_1x_coco.py).
 
 ## Preparing Data
-The mmdetection supports the coco dataset, but the DSB and monuseg datasets we use are not in the coco format. So we need to convert them to coco format.
+The mmdetection supports the coco dataset, but the DSB and monuseg datasets we use are not in the coco format. So we need to convert them to the coco format.<br>
+
+The dataset that we processed can be downloaded from
+
+## Get Started
+```
+./tools/train 
+```
+
+## Experiments Result
+### DSB Dataset
+The Detection Results are as follows
+
