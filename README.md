@@ -12,7 +12,7 @@ Our method is improved on the basis of Mask-RCNN, including GA-RPN,FBS and SoftN
 ## Preparing Data
 The mmdetection supports the coco dataset, but the DSB and MonuSeg datasets we use are not in the coco format. So we need to convert them to the coco format.<br>
 
-The dataset that we processed can be downloaded from [here](https://drive.google.com/drive/folders/19SRU1PyKoz-kdOzh-WBktCz3P6QjWvbo).
+The dataset that we processed can be downloaded from [here](https://drive.google.com/drive/folders/19SRU1PyKoz-kdOzh-WBktCz3P6QjWvbo) or [Dropbox](https://www.dropbox.com/sh/vcm8s3vtglhjbv5/AACmzwwTOIIYn2nVg2bLNZ_9a?dl=0).
 
 ## Get Started
 ```
@@ -33,4 +33,4 @@ The Segmentation Results are as follows:<br>
 ## Visualization of Results
 For visual assessment of the experiments results, we detailed display the visual results of six images of DSB and seven images of monuseg in the paper.
 
-To further prove the effectiveness of our method, we publish all the visual images in [here](https://drive.google.com/drive/folders/1fG1nQVqxlANfUNfIZMM1T6wf71uxgImn).
+To further prove the effectiveness of our method, we publish all the visual images in [here](https://drive.google.com/drive/folders/1fG1nQVqxlANfUNfIZMM1T6wf71uxgImn) or [Dropbox](https://www.dropbox.com/sh/0hsga3f3kamgn65/AACZcDlC5jKlAqA79An5eCOGa?dl=0).
