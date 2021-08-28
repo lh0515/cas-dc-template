@@ -1,4 +1,4 @@
-_base_ = '../FBS/fbs_rcnn_r50_fpn_1x_coco.py'
+_base_ = '../CBS/cbs_rcnn_r50_fpn_1x_coco.py'
 model = dict(
     rpn_head=dict(
         _delete_=True,

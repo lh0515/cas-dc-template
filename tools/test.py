@@ -25,7 +25,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description='MMDet test (and eval) a model')
     parser.add_argument('--config', help='test config file path',
-                        default='configs/Ours/GARPN_FBS_SoftNMS-r50_fpn_1x_coco.py')
+                        default='configs/Ours/GARPN_CBS_SoftNMS-r50_fpn_1x_coco.py')
     parser.add_argument('--checkpoint', help='checkpoint file', default='exp-kaggle/Ours/end_model.pth')
     # parser.add_argument('--checkpoint', help='checkpoint file', default='exp-kaggle/Ours/end_model.pth')
     # parser.add_argument('--checkpoint', help='checkpoint file', default='exp-kaggle/Detectors/epoch_23.pth')

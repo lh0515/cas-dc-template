@@ -397,16 +397,13 @@ def iou_test(model,
     # plt.title("")  # 显示图表名称
     pccs = pearsonr(ious, scores)
     print(pccs)
-    plt.xlabel("BBoxIoU")  # x轴名称
-    plt.ylabel("Classification Score")  # y轴名称
+    plt.xlabel("IoU")  # x轴名称
+    plt.ylabel("Calibrated Box Score")  # y轴名称
     plt.scatter(ious, scores, s=1)
-    plt.savefig('./Classification score VS  BBoxIoU.png')
+    plt.savefig('./Calibrated Box Score VS  IoU.png')
     plt.show()
 
-    # plt.xlabel("Fusion Score")  # x轴名称
-    # plt.ylabel("IoU With ground-truth box")  # y轴名称
-    # plt.scatter(scores, ious, s=1)
-    # plt.show()
+
     return results
 
 

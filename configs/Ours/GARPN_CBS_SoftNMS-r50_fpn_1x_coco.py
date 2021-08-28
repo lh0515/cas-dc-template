@@ -1,4 +1,4 @@
-_base_ = '../FBS/fbs_rcnn_r50_fpn_1x_coco.py'
+_base_ = '../CBS/cbs_rcnn_r50_fpn_1x_coco.py'
 model = dict(
     rpn_head=dict(
         _delete_=True,
@@ -68,4 +68,10 @@ optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=5e-4)
 optimizer_config = dict(
     _delete_=True, grad_clip=dict(max_norm=35, norm_type=2))
 
-
+# test_cfg = dict(
+#     rcnn=dict(
+#         score_thr=0.05,
+#         nms=dict(type='soft_nms', iou_threshold=0.5),
+#         # nms=dict(type='soft_nms', iou_threshold=0.5, method='naive'),
+#         max_per_img=500,
+#         mask_thr_binary=0.5))
