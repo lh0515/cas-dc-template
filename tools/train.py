@@ -21,9 +21,9 @@ from mmdet.utils import collect_env, get_root_logger
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
     parser.add_argument('--config', help='train config file path',
-                        default='configs/Ours/GARPN_CBS_SoftNMS-r50_fpn_1x_coco.py')
+                        default='configs/Ours/GARPN_FBS_SoftNMS-r50_fpn_1x_coco.py')
     # parser.add_argument('--config', help='train config file path',
-    #                     default='configs/CBS/cbs_rcnn_r50_fpn_1x_coco.py')
+    #                     default='configs/FBS/fbs_rcnn_r50_fpn_1x_coco.py')
     # parser.add_argument('--config', help='train config file path',
     #                     default='configs/GA-RPN/ga_faster_r50_fpn_1x_coco.py')
     # parser.add_argument('--config', help='train config file path',
